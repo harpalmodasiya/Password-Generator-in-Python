@@ -30,20 +30,20 @@ A Python-based Password Generator using Tkinter for the GUI. Generate strong, cu
 
 ## Usage
 
-1.Open the application.
-2.Select the desired length of the password using the scale.
-3.Choose the character sets to include (uppercase, lowercase, digits, symbols) by checking the corresponding boxes.
-4.Click the "Generate Password" button to generate a password.
-5.The generated password will be displayed in the password history listbox.
-6.To copy a password to the clipboard, select it from the listbox and click the "Copy Password" button.
-7.To clear the password history, click the "Clear History" button.
+1. Open the application.
+2. Select the desired length of the password using the scale.
+3. Choose the character sets to include (uppercase, lowercase, digits, symbols) by checking the corresponding boxes.
+4. Click the "Generate Password" button to generate a password.
+5. The generated password will be displayed in the password history listbox.
+6. To copy a password to the clipboard, select it from the listbox and click the "Copy Password" button.
+7. To clear the password history, click the "Clear History" button.
 
 ## Code Overview
 
--generate_password: Function to generate a password based on user-selected options.
--copy_password: Function to copy the selected password from the history listbox to the clipboard.
--clear_history: Function to clear the password history.
--The main window is created and configured with Tkinter, including labels, scales, checkboxes, buttons, and listbox.
+- generate_password: Function to generate a password based on user-selected options.
+- copy_password: Function to copy the selected password from the history listbox to the clipboard.
+- clear_history: Function to clear the password history.
+- The main window is created and configured with Tkinter, including labels, scales, checkboxes, buttons, and listbox.
 
 ## License
 
